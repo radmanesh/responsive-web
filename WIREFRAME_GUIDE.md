@@ -3,38 +3,56 @@
 **Goal:**  
 You will create **three clean wireframe sketches** (mobile, tablet, and desktop) that accurately represent how an existing webpage’s layout looks at each device size.
 
-You are **not designing** a layout — you are **copying the actual layout structure** shown in the provided screenshots or live webpage, using standard wireframe symbols.
+You are **not designing** a layout — you are **copying the actual layout structure** shown in the provided screenshots or the live webpage, using standard wireframe symbols.
 
 ---
 
 ## 1. Overview
 
 For each assigned webpage (**Page ID**):
-- Create **three sketches** — one for each device:
-  - 📱 **Mobile (≤480 px)**
-  - 💻 **Tablet (≈768 px)**
-  - 🖥 **Desktop (≥1200 px)**
-- Each sketch should **faithfully reproduce** the layout as it appears in that viewport, focusing on:
+
+- Create **three sketches**, one for each device size:
+  - 📱 **Mobile:** 375 × 688 px (iPhone SE)
+  - 💻 **Tablet:** 768 × 1024 px (iPad Mini)
+  - 🖥 **Desktop:** 1280 × 800 px (Responsive Custom)
+- Each sketch must **faithfully reproduce** the real layout at that specific viewport size.
+- Focus on:
   - **Placement and size of elements**
   - **Page hierarchy and spacing**
-  - **Responsive changes** (e.g., collapsed menus, stacking, reflow)
+  - **Responsive changes** (stacking, menu collapse, reflow)
 
 ---
 
-## 2. What to Copy
+## 2. Viewing the Website in the Correct Size
 
-- Use the **provided screenshots** (or open the live site and resize your browser to the target width).  
+To ensure accuracy, **use Chrome Developer Tools** to view each layout:
+
+1. Open the webpage in **Google Chrome**.  
+2. Right-click anywhere on the page and select **Inspect** (or press `Ctrl+Shift+I` / `Cmd+Option+I`).  
+3. Click the **Device Toolbar icon** (top-left corner of the DevTools panel).  
+4. In the top toolbar, select the appropriate device:
+   - For **Mobile**, select **iPhone SE (375 × 688)**  
+   - For **Tablet**, select **iPad Mini (768 × 1024)**  
+   - For **Desktop**, choose **Responsive**, then manually set it to **1280 × 800**
+5. Refresh the page after changing the device to make sure the responsive layout loads properly.  
+6. Observe and sketch the structure exactly as it appears in each view.
+
+---
+
+## 3. What to Copy
+
+- Copy the **layout and structure** exactly — not the text, color, or images.  
 - Pay attention to:
   - Header and navigation (position, visibility, menu style)
   - Image placement and scaling
   - Text block arrangement (columns vs stacked)
   - Sidebars (shown, hidden, or moved)
-  - Footer layout
-- If an element disappears or changes shape at a smaller size, **show that difference clearly**.
+  - Footer layout  
+- If an element disappears or changes at a smaller size, **show that difference clearly**.
 
 ---
 
-## 3. What to Draw (Wireframe Symbols)
+## 4. What to Draw (Wireframe Symbols)
 
 | Type | Symbol |
 |------|--------|
@@ -52,13 +70,13 @@ Keep all sketches **monochrome** (black pen/stylus on white background) and **fr
 
 ---
 
-## 4. Step-by-Step Instructions
+## 5. Step-by-Step Instructions
 
-1. **Open webpage or screenshot** for the assigned page.  
-2. **Resize browser** (or use the given screenshots) for:
-   - Mobile (≤480 px)
-   - Tablet (768 px)
-   - Desktop (≥1200 px)
+1. **Open the webpage or screenshot** for the assigned page.  
+2. **Set the viewport size** in Chrome DevTools for:
+   - **Mobile:** iPhone SE (375 × 688)  
+   - **Tablet:** iPad Mini (768 × 1024)  
+   - **Desktop:** Responsive (1280 × 800)
 3. For each size:
    - Observe the **structure carefully**
    - Draw each visible region (header, hero, content, sidebar, footer)
@@ -76,9 +94,9 @@ Annotator ID: [your code]
 
 ---
 
-## 5. Quality Checklist ✅
+## 6. Quality Checklist ✅
 
-Before submitting:
+Before submission:
 - [ ] All **three sizes** are completed  
 - [ ] Sketches **match** the structure of the real webpage  
 - [ ] Standard wireframe symbols are used consistently  
@@ -87,7 +105,7 @@ Before submitting:
 
 ---
 
-## 6. Common Errors ❌
+## 7. Common Errors ❌
 
 - Changing the layout yourself  
 - Mixing multiple device layouts on one sheet  
@@ -97,7 +115,7 @@ Before submitting:
 
 ---
 
-## 7. File Naming
+## 8. File Naming
 
 <page_id><annotator_id>_v.png
 
@@ -108,10 +126,10 @@ store_home_desktop_A01_v1.png
 
 ---
 
-## 8. Example Summary
+## 9. Example Summary
 
 | Device | Example Responsive Change |
 |---------|---------------------------|
-| Mobile | Nav collapses, columns stack |
-| Tablet | Cards align in 2 columns |
-| Desktop | Sidebar appears, full nav visible |
+| Mobile (iPhone SE) | Nav collapses, columns stack |
+| Tablet (iPad Mini) | Cards align in 2 columns |
+| Desktop (Responsive 1280×800) | Sidebar appears, full nav visible |
