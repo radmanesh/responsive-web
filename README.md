@@ -1,54 +1,42 @@
-# LLM Responsive Web Generator and Benchmark Project
+## Project Description: Responsive Webpage Generation and Evaluation using LLMs
 
-## 📋 Overview
+This project explores the use of **Large Language Models (LLMs)** for **responsive web design generation**. Inspired by the *Sketch2Code* framework (Li et al., 2024) for sketch-to-HTML translation, this project focuses on generating fully responsive webpages from **three wireframe sketches**—one each for **mobile**, **tablet (iPad Pro)**, and **desktop** layouts.
 
-This project leverages **Large Language Models (LLMs)** to automatically generate and evaluate responsive web designs across multiple device breakpoints. The project combines **website wireframe annotation**, **LLM-powered generation**, and **benchmarking** to create a comprehensive platform for testing and improving responsive design capabilities.
+### Objective
 
-## 🎯 Project Goals
+The goal is to develop an **end-to-end pipeline** that:
 
-- **Generate** responsive web wireframes and layouts using LLMs
-- **Annotate** existing websites with accurate responsive design patterns
-- **Benchmark** LLM performance in understanding and reproducing responsive designs
-- **Create datasets** of responsive web layouts across mobile, tablet, and desktop viewports
-- **Evaluate** the quality and accuracy of generated responsive designs
+- Takes **three sketches** (mobile, tablet, desktop) as input, representing layout variations of the same webpage.
+- Generates **static HTML with inline CSS**, ensuring responsive behavior without relying on external dependencies.
+- **Evaluates** the generated webpages by comparing **rendered screenshots** with **ground truth screenshots** of the original responsive design.
 
-## 🏗️ Project Structure
+### Pipeline Overview
 
-```
-responsive-web/
-├── README.md                    # Project overview and setup guide
-├── WIREFRAME_GUIDE.md          # Guidelines for annotating responsive wireframes
-└── [Additional project files]   # Generated datasets, models, and utilities
-```
+**Input Representation:**
+Each device view is represented by a **full-height wireframe sketch** drawn using standard wireframing conventions (e.g., boxes for images, curly lines for text).
 
-## 📱 Supported Device Breakpoints
+**Code Generation:**
+An LLM receives the three sketches and generates an **HTML file with embedded CSS** that scales appropriately across the three target device sizes.
 
-The project focuses on three primary device sizes:
+**Evaluation:**
+Generated webpages are rendered and compared against reference screenshots using **visual and layout similarity metrics**, such as **Intersection-over-Union (IoU)** and pixel-based similarity.
 
-- **Mobile**: 375 × 688 px (iPhone SE)
-- **Tablet**: 768 × 1024 px (iPad Mini)
-- **Desktop**: 1280 × 800 px (Responsive Custom)
+**LLM as a Judge:**
+A secondary evaluation uses **LLMs-as-judges** guided by **three rubrics** (layout accuracy, visual consistency, and cross-device responsiveness) to provide structured qualitative assessments.
 
-## 🔑 Key Features
+### Research Motivation
 
-### Wireframe Annotation
-- Systematic annotation of webpage layouts at each device breakpoint
-- Focus on layout structure, hierarchy, and responsive behavior
-- Standardized wireframing symbols and conventions
+While *Sketch2Code* (Li et al., 2024) demonstrated the feasibility of converting low-fidelity sketches into webpage prototypes. This project extends that idea by:
 
-### LLM Integration
-- Utilize LLMs to generate responsive design layouts
-- Analyze and understand responsive design patterns
-- Predict responsive behavior across breakpoints
+- Introducing **multi-device input** for responsive layout synthesis.
+- Designing a **quantitative responsive metering system** to evaluate alignment and adaptability across breakpoints.
+- Incorporating **LLM-based evaluation rubrics** for standardized assessment across device contexts.
 
-### Benchmarking Framework
-- Compare LLM-generated designs with ground truth layouts
-- Metrics for layout accuracy, element placement, and responsiveness
-- Performance evaluation across different device sizes
+### Expected Outcome
 
-## 📚 Documentation
+The final system will serve as a **benchmark framework** for **responsive layout generation**, combining **vision-language understanding** and **code synthesis** under realistic design constraints. The evaluation metrics and LLM-based rubrics will contribute to developing more **reliable and standardized measures** for webpage responsiveness in LLM-generated UI code.
 
-- **[WIREFRAME_GUIDE.md](./WIREFRAME_GUIDE.md)** - Comprehensive guidelines for creating and annotating responsive wireframes for websites
+- **[ANNOTATOR_GUIDE.md](./ANNOTATOR_GUIDE.md)** - Comprehensive guidelines for creating and annotating responsive wireframes for websites
 
 
 ## 🤝 Contributing
@@ -58,7 +46,3 @@ Contributions are welcome! Please feel free to submit issues, fork the repositor
 ## 📄 License
 
 Copyright (c) 2025 OUNLP Project Contributors
-
-## 📧 Contact
-
-For questions or inquiries, please contact the project maintainers.
