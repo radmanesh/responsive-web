@@ -137,14 +137,20 @@ Examples:
 
 ### Visual Examples
 
-**Example Page Wireframes**
+**Desktop Example**
 
-| Desktop | Tablet | Mobile |
-|----------|---------|--------|
-| ![Example Desktop](images/screenshot-example-d.png) | ![Example Tablet](images/screenshot-example-t.png) | ![Example Mobile](images/screenshot-example-m.png) |
+| Screenshot | Wireframe |
+|----------|---------|
+| ![Example Desktop](images/screenshot-example-d.png) | ![Desktop Wireframe](images/58-d.png) |
 
-**Page 58 Wireframes**
+**Table Example**
 
-| Desktop | Tablet | Mobile |
-|----------|---------|--------|
-| ![58 Desktop](images/58-d.png) | ![58 Tablet](images/58-t.png) | ![58 Mobile](images/58-m.png) |
+| Screenshot | Wireframe |
+|----------|---------|
+| ![Example Desktop](images/screenshot-example-t.png) | ![Desktop Wireframe](images/58-t.png) |
+
+**Mobile Example**
+
+| Screenshot | Wireframe |
+|----------|---------|
+| ![Example Desktop](images/screenshot-example-m.png) | ![Desktop Wireframe](images/58-m.png) |
