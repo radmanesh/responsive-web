@@ -12,14 +12,15 @@ You are **not designing** a layout — you are **copying the actual layout struc
 For each assigned webpage (**Page ID**):
 
 - Create **three sketches**, one for each device size:
-  - 📱 **Mobile:** 375 × 688 px (iPhone SE)
-  - 💻 **Tablet:** 768 × 1024 px (iPad Mini)
-  - 🖥 **Desktop:** 1280 × 800 px (Responsive Custom)
-- Each sketch must **faithfully reproduce** the real layout at that specific viewport size.
+  - 📱 **Mobile:** 375 × 688 px *(used only for viewport setup in DevTools — your sketch should cover the **entire scrollable page height**)*  
+  - 💻 **Tablet:** 1024 × 1366 px *(iPad Pro; used only for viewport setup — sketch the **full page**, not limited to this height)*  
+  - 🖥 **Desktop:** Minimum width **1280 px** *(used only for viewport setup — there is **no height or maximum width limit**; capture the **complete page** from top to bottom)*
+- Each sketch must **faithfully reproduce** the real layout at that specific viewport width and device configuration.
 - Focus on:
   - **Placement and size of elements**
   - **Page hierarchy and spacing**
   - **Responsive changes** (stacking, menu collapse, reflow)
+  - **Full-page content**, including footer and all scrollable sections
 
 ---
 
@@ -32,10 +33,10 @@ To ensure accuracy, **use Chrome Developer Tools** to view each layout:
 3. Click the **Device Toolbar icon** (top-left corner of the DevTools panel).  
 4. In the top toolbar, select the appropriate device:
    - For **Mobile**, select **iPhone SE (375 × 688)**  
-   - For **Tablet**, select **iPad Mini (768 × 1024)**  
-   - For **Desktop**, choose **Responsive**, then manually set it to **1280 × 800**
+   - For **Tablet**, select **iPad Pro (1024 × 1366)**  
+   - For **Desktop**, choose **Responsive**, then manually set it to **at least 1280 px width** (no maximum)
 5. Refresh the page after changing the device to make sure the responsive layout loads properly.  
-6. Observe and sketch the structure exactly as it appears in each view.
+6. **Scroll through the entire page** and sketch **all visible sections**, from header to footer — the specified sizes are for device width reference only, **not height limits**.
 
 ---
 
@@ -58,13 +59,13 @@ To ensure accuracy, **use Chrome Developer Tools** to view each layout:
 |------|--------|
 | **Image / banner** | Rectangle with an **X** |
 | **Text / paragraph** | Wavy lines |
-| **Heading / title** | Straight bold line(s) |
-| **Button / input box** | Small rectangle with label (e.g., “btn”) |
+| **Heading / title** | Wavy bold line(s) |
+| **Button / input box** | Small rectangle |
 | **Navigation bar / menu** | Horizontal bars; collapsed = hamburger icon |
 | **Card / grid item** | Box grouping image + lines |
-| **Icon** | Small circle or square |
+| **Icon** | Small square |
 | **List / table** | Repeated horizontal lines |
-| **Footer** | Box with wavy lines or icons |
+| **Footer** | Box or wavy lines |
 
 Keep all sketches **monochrome** (black pen/stylus on white background) and **freehand but neat**.
 
@@ -75,21 +76,21 @@ Keep all sketches **monochrome** (black pen/stylus on white background) and **fr
 1. **Open the webpage or screenshot** for the assigned page.  
 2. **Set the viewport size** in Chrome DevTools for:
    - **Mobile:** iPhone SE (375 × 688)  
-   - **Tablet:** iPad Mini (768 × 1024)  
-   - **Desktop:** Responsive (1280 × 800)
+   - **Tablet:** iPad Pro (1024 × 1366)  
+   - **Desktop:** Responsive (minimum 1280 px width, no maximum)
 3. For each size:
    - Observe the **structure carefully**
-   - Draw each visible region (header, hero, content, sidebar, footer)
-   - Reproduce proportions and spacing as closely as practical
+   - Draw the **entire scrollable page**, including all sections (header, hero, content, sidebar, footer)
+   - Reproduce proportions and spacing as closely as practical — do **not crop** to the visible screen only
 4. Label each sketch clearly:
 
-Page ID: [name]
-Device: Mobile / Tablet / Desktop
+Page ID: [name]  
+Device: Mobile / Tablet / Desktop  
 Annotator ID: [your code]
 
 5. **Scan or photograph** sketches in good lighting.
-- Image format: PNG or JPG
-- Minimum width: 2000 px
+- Image format: PNG or JPG  
+- Minimum width: 2000 px  
 - No glare, cropping, or shadow
 
 ---
@@ -117,12 +118,12 @@ Before submission:
 
 ## 8. File Naming
 
-<page_id><annotator_id>_v.png
+<page_id>-<annotator_id>.png
 
 Examples:
-store_home_mobile_A01_v1.png
-store_home_tablet_A01_v1.png
-store_home_desktop_A01_v1.png
+1234-m-A1.png  
+1234-t-A1.png  
+1234-d-A1.png
 
 ---
 
@@ -131,5 +132,19 @@ store_home_desktop_A01_v1.png
 | Device | Example Responsive Change |
 |---------|---------------------------|
 | Mobile (iPhone SE) | Nav collapses, columns stack |
-| Tablet (iPad Mini) | Cards align in 2 columns |
-| Desktop (Responsive 1280×800) | Sidebar appears, full nav visible |
+| Tablet (iPad Pro) | Cards align in 2 columns |
+| Desktop (≥1280 px) | Sidebar appears, full nav visible, full-page height captured |
+
+### Visual Examples
+
+**Example Page Wireframes**
+
+| Desktop | Tablet | Mobile |
+|----------|---------|--------|
+| ![Example Desktop](images/screenshot-example-d.png) | ![Example Tablet](images/screenshot-example-t.png) | ![Example Mobile](images/screenshot-example-m.png) |
+
+**Page 58 Wireframes**
+
+| Desktop | Tablet | Mobile |
+|----------|---------|--------|
+| ![58 Desktop](images/58-d.png) | ![58 Tablet](images/58-t.png) | ![58 Mobile](images/58-m.png) |
