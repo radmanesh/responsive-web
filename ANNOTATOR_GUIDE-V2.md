@@ -1,4 +1,4 @@
-# 🧭 Annotator Guidelines: Responsive Website Wireframe Sketching #Revision 1
+# 🧭 Annotator Guidelines: Responsive Website Wireframe Sketching Revision #2
 
 **Goal:**
 You will create **three clean wireframe sketches** (mobile, tablet, and desktop) that accurately represent how an existing webpage’s layout looks at each device size.
@@ -59,13 +59,14 @@ To ensure accuracy, **use Chrome Developer Tools** to view each layout:
 |------|--------|
 | **Image / banner** | Rectangle with an **X** |
 | **Text / paragraph** | Wavy lines |
-| **Heading / title** | Wavy bold line(s) |
-| **Button / input box** | Small rectangle |
-| **Navigation bar / menu** | Horizontal bars; collapsed = hamburger icon |
+| **Heading / title** | **Bold straight line(s)** |
+| **Button** | Box with **“btn”** written inside |
+| **Text input / form field** | Box with **“input”** written over it |
+| **Navigation bar / menu** | **Box (not wavy)**; collapsed = hamburger icon |
 | **Card / grid item** | Box grouping image + lines |
 | **Icon** | Small square |
 | **List / table** | Repeated horizontal lines |
-| **Footer** | Box or wavy lines |
+| **Footer** | **Box (not wavy)** |
 
 Keep all sketches **monochrome** (black pen/stylus on white background) and **freehand but neat**.
 
@@ -141,16 +142,16 @@ Examples:
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-d.png) | ![Desktop Wireframe](images/58-d.png) |
+| ![Example Desktop](images/58-gt-d.png) | ![Desktop Wireframe](images/58-d-v2.png) |
 
-**Table Example**
+**Tablet Example**
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-t.png) | ![Desktop Wireframe](images/58-t.png) |
+| ![Example Tablet](images/58-gt-t.png) | ![Tablet Wireframe](images/58-t-v2.png) |
 
 **Mobile Example**
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-m.png) | ![Desktop Wireframe](images/58-m.png) |
+| ![Example Mobile](images/58-gt-m.png) | ![Mobile Wireframe](images/58-m-v2.png) |
