@@ -141,16 +141,16 @@ Examples:
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-d.png) | ![Desktop Wireframe](images/58-d.png) |
+| ![Example Desktop](images/58-gt-d.png) | ![Desktop Wireframe](images/58-s-d.png) |
 
 **Table Example**
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-t.png) | ![Desktop Wireframe](images/58-t.png) |
+| ![Example Desktop](images/58-gt-t.png) | ![Desktop Wireframe](images/58-s-t.png) |
 
 **Mobile Example**
 
 | Screenshot | Wireframe |
 |----------|---------|
-| ![Example Desktop](images/screenshot-example-m.png) | ![Desktop Wireframe](images/58-m.png) |
+| ![Example Desktop](images/58-gt-m.png) | ![Desktop Wireframe](images/58-s-m.png) |
